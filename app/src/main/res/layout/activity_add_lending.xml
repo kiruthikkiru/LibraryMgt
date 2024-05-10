@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/bookIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book ID"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/memberIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Member ID"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/borrowedDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Borrowed Date (YYYY-MM-DD)"
+        android:inputType="date"/>
+
+    <EditText
+        android:id="@+id/returnDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Return Date (YYYY-MM-DD)"
+        android:inputType="date"/>
+
+    <Button
+        android:id="@+id/saveLendingButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Lending Record" />
+
+</LinearLayout>
